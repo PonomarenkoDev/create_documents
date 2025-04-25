@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9eaeb;
+}
+
+.titleBlock {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #252b37;
+}
+
+.divider {
+  width: 0.5px;
+  height: 18px;
+  margin: 0 12px;
+  color: #6f717c;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: #717680;
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  width: 28px;
+  height: 28px;
+}

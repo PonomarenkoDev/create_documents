@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #414651;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.textarea {
+  display: block;
+  min-height: 100px;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #414651;
+  resize: none;
+  outline: none;
+}
+
+.textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb20;
+}
+
+.textReadonly {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #252b37;
+  white-space: pre-wrap;
+}

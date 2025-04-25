@@ -1,0 +1,25 @@
+.textarea {
+  width: 100%;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: "Inter", sans-serif;
+  color: #252b37;
+
+  border: none;
+  background: transparent;
+  outline: none;
+
+  resize: none;
+  overflow: hidden;
+}
+
+.textarea::placeholder {
+  color: #d5d7da;
+  opacity: 1;
+}
+
+.filled {
+  color: #252b37;
+}

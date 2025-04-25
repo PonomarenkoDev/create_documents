@@ -1,0 +1,21 @@
+.item {
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 400px;
+  height: 46px;
+  padding: 12px 24px;
+  border: 1px solid #afafaf;
+  border-radius: 6px;
+  background-color: #ffffff;
+
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #534f4f;
+  text-align: left;
+
+  cursor: pointer;
+}
